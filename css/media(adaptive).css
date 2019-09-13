@@ -1,0 +1,344 @@
+@media (max-width: 2560px) {
+    .header_wrap, .Delivery_wrap, .Sell_Block {
+        width: 60%;
+    }
+    .Info {
+        width: 31%;
+    }
+    .Menu {
+        width: 60%;
+        position: absolute;
+        left: 20%
+    }
+    .Delivery_wrap a {
+        width: 15%;
+    }
+    .Card {
+        width: 20%;
+    }
+    .Advantage_Card {
+        width: 23%;
+    }
+}
+@media (max-width: 1920px) {
+    .header_wrap, .Delivery_wrap, .Sell_Block {
+        width: 50%;
+    }
+    .Info {
+        width: 47%;
+    }
+    .Menu {
+        width: 50%;
+        left: 25%;
+    }
+    .Delivery_wrap a {
+        width: 25%;
+    }
+    .Card {
+        width: 30%;
+    }
+    .Advantage_Card {
+        width: 30%;
+    }
+}
+@media (max-width: 1680px) {
+    .header_wrap, .Delivery_wrap, .Sell_Block, .Adventage, .Product_Card_Wrap, .footer_wrap, .MyContacts_wrap {
+        width: 60%;
+    }
+    .Menu {
+        width: 60%;
+        left: 20%;
+    }
+    .Card {
+        width: 25%;
+    }
+    .Advantage_Card {
+        width: 31%;
+    }
+    .test2 {
+        width: 45%;
+    }
+    
+}
+@media (max-width: 1600px) {
+    .Card {
+        width: 26%;
+    }
+    .Adventage {
+        width: 70%;
+    }
+    .Advantage_Card {
+        width: 30%;
+    }
+    .Product_Card_Wrap {
+        width: 70%;
+    }
+    .test2 {
+        width: 45%;
+    }
+}
+@media (max-width: 1440px) {
+    .header_wrap, .Delivery_wrap, .Sell_Block, .Services_Wrap {
+        width: 70%;
+    }
+    .Adventage {
+        width: 70%;
+    }
+    .Menu {
+        width: 70%;
+        left: 15%;   
+    }
+    .Advantage_Card {
+        width: 32%;
+    }
+    .test2 {
+        width: 50%;
+    }
+    .footer_wrap, .MyContacts_wrap {
+        width: 66%;
+    }
+}
+@media (max-width: 1366px) {
+    .header_wrap {
+        width: 70%;
+    }
+    .Adventage {
+        width: 75%;
+    }
+    .Advantage_Card {
+        width: 31%;
+    }
+}
+@media (max-width: 1280px) {
+    .header_wrap, .Delivery_wrap, .Sell_Block {
+        width: 75%;
+    }
+    .Menu {
+        width: 75%; 
+        left: 12.5%;  
+    }
+    .Advantage_Card {
+        width: 28%;
+    }
+    .test2 {
+        width: 55%;
+    }
+    .footer_wrap, .MyContacts_wrap {
+        width: 73%;
+    }
+}
+@media (max-width: 1024px) {
+    .header_wrap {
+        width: 95%;
+        position: absolute;
+    }
+    .Sell_Block, .Product_Card_Wrap, .Services_Wrap, .footer_wrap, .MyContacts_wrap {
+        width: 90%;
+    }
+    .Card {
+        width: 30%;
+    }
+    .Delivery_wrap {
+        display: flex;
+        width: 95%;
+    }
+    .Info {
+        display: none;
+    }
+    .m-menu-link {
+        display: block;
+    }
+    .Menu {
+        display: none;
+    }
+    .Adventage {
+        width: 95%;
+    }
+    .Advantage_Card {
+        width: 32%;
+    }
+    .Advantage_Card strong {
+        font-size: 15pt;
+    }
+    .test2 {
+        width: 70%;
+    }
+}
+@media (max-width: 768px) {
+    .Delivery_wrap a {
+        width: 35%;
+    }
+    .Card_Wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .Card {
+        width: 60%;
+        padding-bottom: 60px;
+    }
+    .Adventage {
+        width: 95%;
+    }
+    .Advantage_Card {
+        width: 32%;
+    }
+    .Advantage_Card strong {
+        font-size: 12pt;
+    }
+    .Product_Card_Wrap {
+        flex-wrap: wrap;
+    }
+    .Product_Card {
+        width: 34%;
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+    .Services_Wrap {
+        width: 100%;
+    }
+    .Contacts_wrap {
+        width: 55%;
+    }
+    .test2 {
+        width: 70%;
+        padding: 50px 20px 50px 40px;
+    }
+}
+@media (max-width: 420px) {
+    .Delivery_wrap h1 {
+        font-size: 30pt;
+    }
+    .Delivery_wrap a {
+        width: 60%;
+    }
+    .Card {
+        width: 75%;
+        padding-bottom: 60px;
+    }
+    .Adventage {
+        width: 80%;
+    }
+    .Advantage_Card_Wrap {
+        flex-wrap: wrap;
+    }
+    .Advantage_Card {
+        flex-wrap: wrap;
+        width: 100%;
+        padding-bottom: 80px;
+    }
+    .Product_Card_Wrap {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .Product_Card {
+        padding-bottom: 50px;
+        margin: 0 auto;
+    }
+    .Services_Wrap {
+        flex-wrap: wrap;
+        width: 51%;
+        justify-content: center;
+    }
+    .Service {
+        padding-bottom: 70px;
+    }
+    .Contacts_wrap {
+        width: 100%;
+    }
+    .test2 {
+        width: 75%;
+        margin: 0 auto;
+        padding: 30px 40px 30px 40px;
+    }
+    .footer_wrap strong{
+        font-size: 11pt;
+    }
+    .footer_wrap p {
+        font-size: 10pt;
+    }
+    .footer_wrap, .MyContacts_wrap {
+        width: 95%;
+    }
+    .MyContacts_wrap p, .MyContacts_wrap a {
+        font-size: 10pt;
+    }
+}
+@media (max-width: 384px) {
+    .Logo p {
+        font-size: 10pt;
+    }
+    .Delivery_wrap h1 {
+        font-size: 28pt;
+    }
+    .Product_Card {
+        width: 40%;
+    }
+    .MyContacts_wrap p, .MyContacts_wrap a {
+        font-size: 8pt;
+    }
+}
+@media (max-width: 375px) {
+    
+}
+@media (max-width: 360px) {
+    .Logo p {
+        font-size: 12pt;
+    }
+    .Logo strong {
+        font-size: 15pt;
+    }
+    .Delivery_wrap h1 {
+        font-size: 26pt;
+    }
+    .MyContacts_wrap {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .MyContacts_wrap p, .MyContacts_wrap a {
+        font-size: 12pt;
+        padding-bottom: 20px;
+
+    }
+}
+@media (max-width: 320px) {
+    .Logo p {
+        font-size: 12pt;
+    }
+    .Logo strong {
+        font-size: 15pt;
+    }
+    .Delivery_wrap h1 {
+        font-size: 24pt;
+    }
+    .Delivery_wrap p {
+        font-size: 13pt;
+    }
+    .Delivery_wrap a {
+        width: 70%;
+    }
+    .Card {
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .Product_Card_Wrap {
+        flex-wrap: wrap;
+    }
+    .Product_Card {
+        padding-bottom: 50px;
+        width: 51%;
+    }
+    .Contacts_wrap {
+        width: 100%;
+    }
+    .test2 {
+        width: 75%;
+        margin: 0 auto;
+        padding: 30px 30px 30px 30px;
+    }
+    .footer_wrap, .MyContacts_wrap {
+        width: 95%;
+    }
+    .MyContacts_wrap a:nth-child(2) {
+        font-size: ;
+    }
+}
